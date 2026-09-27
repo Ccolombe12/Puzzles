@@ -2,32 +2,12 @@
 
 Solutions to various math and programming puzzles I find interesting — mostly
 [The Fiddler on the Proof](https://thefiddler.substack.com/), Zach Wissner-Gross's weekly
-puzzle column. Each notebook works a puzzle end to end: the statement, the reasoning
-(usually with some LaTeX), and code that either derives the exact answer or simulates it
-as a sanity check.
+puzzle column, the monthly [Jane Street Problem](https://www.janestreet.com/puzzles/current-puzzle/), or the monthly [IBM Ponder This Puzzle](https://research.ibm.com/labs/israel/ponder-this#current-challenge--solution)   Each notebook works a puzzle end to end: the problem statement, the actual solution methodology
+(usually with LaTeX, but sometimes a hurried screenshot of scratch work 😅), and sometimes code when an analytic solution escapes me. Some puzzles that I found particularly interesting can be seen on [my puzzle blog](https://ccolombe12.github.io).
+* NOTE: This is a WIP from the scrappy folder on my device and I cannot guarentee all puzzles have a solution at the moment * 
 
-## Layout
 
-```text
-Fiddler/                       # one notebook (or folder) per puzzle
-  <name>.ipynb                 # older puzzles: a single notebook
-  YYYY-MM-DD-<slug>/           # newer puzzles: a folder, for puzzles with helper files
-    <name>.ipynb
-    plot_style.py              # optional local helpers
-```
 
-## Conventions for new puzzles
-
-- **Write the puzzle statement out as text** in a markdown cell at the top of the
-  notebook, rather than pasting a screenshot. Screenshots aren't searchable, don't render
-  on GitHub's notebook viewer in all cases, and get lost if the notebook is converted.
-  Link to the original post underneath it.
-- **Put each part under its own heading** (`# Part 1`, `# Part 2`, …) and `\boxed{}` the
-  final answer so it's easy to find.
-- **New puzzles go in a dated folder** — `Fiddler/YYYY-MM-DD-<slug>/` — so any helper
-  scripts, images, or data sit next to the notebook they belong to.
-- **Show both** the exact/analytic result and a simulation when you can. Most of these
-  notebooks do this, and it's caught mistakes more than once.
 
 ## Index
 
