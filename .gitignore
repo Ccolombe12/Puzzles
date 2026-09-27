@@ -2,3 +2,10 @@ __pycache__/
 *.pyc
 .DS_Store
 .ipynb_checkpoints/
+
+# Solver scratch output, written into the working directory
+cplex.log
+clone*.log
+*.lp
+*.sol
+*.soln
