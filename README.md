@@ -15,6 +15,7 @@ Newest first. Dates are roughly the puzzle's publication date.
 
 | Date | Source | Puzzle | What's in it |
 | --- | --- | --- | --- |
+| 2026-09-25 | Fiddler | [Framing a triangle trophy](Fiddler/framing_a_triangle_trophy.ipynb) | Smallest square around a unit equilateral triangle (`(3+√3)/(2√6) ≈ 0.966`, at `π/12`), then the expected side of the axis-aligned square for a random rotation (`3√2(√3−1)/π ≈ 0.989`), with a spinning-frame GIF |
 | 2026-09-14 | Fiddler | [Can you cheat on the quiz?](Fiddler/can_you_cheat_on_quiz.ipynb) | Propagating the distribution of correct answers along a chain of quiz questions as a Markov process; which question to reveal to maximize your score |
 | 2026-04-17 | Fiddler | [Fizz buzz](Fiddler/2026-04-17-Fizz_buzz/fizz_buzz_puzzle.ipynb) | Counting the `n ≤ 100` that BUZZ (divisible by 7, or containing the digit 7) — 30 of them — with an inclusion–exclusion cross-check |
 | 2026-04-10 | Fiddler | [Number cubes](Fiddler/2026_04_10-number_cubes/number_cubes.ipynb) | Digits on three dice (6 and 9 interchangeable): proving 776 is the best reachable target, then counting the 855 distinct die "types" that reach it |
