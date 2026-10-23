@@ -15,6 +15,7 @@ Newest first. Dates are roughly the puzzle's publication date.
 
 | Date | Source | Puzzle | What's in it |
 | --- | --- | --- | --- |
+| 2026-10-16 | Fiddler | [Gerrymandering Fiddler Nation](Fiddler/gerrymandering_fiddler_nation.ipynb) | Smallest Moon vote share that wins 4 of 7 equal districts (`2/7`, tending to `1/4` as the district count grows), then choosing win probabilities with mean ½ to maximize P(≥5 wins) vs. P(≥4 wins) and comparing the chance of losing the majority (`L_A − L_B = 353/4096 ≈ 0.086`), with a companion [Mathematica notebook](Fiddler/Fiddler_gerrymandering.nb) |
 | 2026-09-25 | Fiddler | [Framing a triangle trophy](Fiddler/framing_a_triangle_trophy.ipynb) | Smallest square around a unit equilateral triangle (`(3+√3)/(2√6) ≈ 0.966`, at `π/12`), then the expected side of the axis-aligned square for a random rotation (`3√2(√3−1)/π ≈ 0.989`), with a spinning-frame GIF |
 | 2026-09-14 | Fiddler | [Can you cheat on the quiz?](Fiddler/can_you_cheat_on_quiz.ipynb) | Propagating the distribution of correct answers along a chain of quiz questions as a Markov process; which question to reveal to maximize your score |
 | 2026-04-17 | Fiddler | [Fizz buzz](Fiddler/2026-04-17-Fizz_buzz/fizz_buzz_puzzle.ipynb) | Counting the `n ≤ 100` that BUZZ (divisible by 7, or containing the digit 7) — 30 of them — with an inclusion–exclusion cross-check |
